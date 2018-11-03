@@ -20,7 +20,7 @@ public class Events extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_events:
-                    //mTextMessage.setText(R.string.title_events);
+                    mTextMessage.setText("Events");
                     goToEvents();
                     return true;
                 case R.id.navigation_discover:
