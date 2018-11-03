@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Events"
+            android:name="Events"
             android:label="Events">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,13 +19,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Discover"
+            android:name="Discover"
             android:label="Discover" />
         <activity
-            android:name=".News"
+            android:name="News"
             android:label="@string/title_activity_news" />
         <activity
-            android:name=".Transportation"
+            android:name="Transportation"
             android:label="@string/title_activity_transportation"></activity>
     </application>
 
