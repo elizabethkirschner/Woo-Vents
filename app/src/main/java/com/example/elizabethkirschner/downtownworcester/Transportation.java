@@ -1,5 +1,6 @@
 package com.example.elizabethkirschner.downtownworcester;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -18,16 +19,20 @@ public class Transportation extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_events:
-                    mTextMessage.setText(R.string.title_events);
+                   // mTextMessage.setText(R.string.title_events);
+                    goToEvents();
                     return true;
                 case R.id.navigation_discover:
-                    mTextMessage.setText(R.string.title_discover);
+                    //mTextMessage.setText(R.string.title_discover);
+                    goToDiscover();
                     return true;
                 case R.id.navigation_news:
-                    mTextMessage.setText(R.string.title_news);
+                    //mTextMessage.setText(R.string.title_news);
+                    goToNews();
                     return true;
                 case R.id.navigation_transportation:
-                    mTextMessage.setText(R.string.title_transportation);
+                   // mTextMessage.setText(R.string.title_transportation);
+                    goToTransportation();
                     return true;
             }
             return false;
@@ -43,5 +48,26 @@ public class Transportation extends AppCompatActivity {
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
+
+    public void goToDiscover (){
+        Intent intent = new Intent (this, Discover.class);
+        startActivity(intent);
+    }
+
+    public void goToTransportation (){
+        Intent intent = new Intent (this, Transportation.class);
+        startActivity(intent);
+    }
+
+    public void goToNews (){
+        Intent intent = new Intent (this, News.class);
+        startActivity(intent);
+    }
+
+    public void goToEvents(){
+        Intent intent = new Intent (this, Events.class);
+        startActivity(intent);
+    }
+
 
 }
