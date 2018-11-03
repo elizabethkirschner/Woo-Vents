@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
         android:id="@+id/navigation_events"
@@ -18,6 +18,7 @@
         android:title="@string/title_news" />
     <item
         android:id="@+id/navigation_transportation"
+        android:layout_width="match_parent"
         android:icon="@android:drawable/btn_star_big_off"
         android:title="@string/title_transportation" />
 
