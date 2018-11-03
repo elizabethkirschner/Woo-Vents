@@ -18,14 +18,17 @@ public class Events extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
-                    mTextMessage.setText(R.string.title_home);
+                    mTextMessage.setText(R.string.title_events);
                     return true;
                 case R.id.navigation_dashboard:
-                    mTextMessage.setText(R.string.title_dashboard);
+                    mTextMessage.setText(R.string.title_discover);
                     return true;
                 case R.id.navigation_notifications:
-                    mTextMessage.setText(R.string.title_notifications);
+                    mTextMessage.setText(R.string.title_news);
                     return true;
+//                case R.id.navigation_events:
+//                    TextMessage.setText(R.string.title_events);
+//                    return true;
             }
             return false;
         }
