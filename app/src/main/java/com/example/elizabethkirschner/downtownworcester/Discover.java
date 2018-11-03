@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class Search extends AppCompatActivity {
+public class Discover extends AppCompatActivity {
 
     private TextView mTextMessage;
 
@@ -25,6 +25,9 @@ public class Search extends AppCompatActivity {
                     return true;
                 case R.id.navigation_news:
                     mTextMessage.setText(R.string.title_news);
+                    return true;
+                case R.id.navigation_transportation:
+                    mTextMessage.setText(R.string.title_transportation);
                     return true;
             }
             return false;
