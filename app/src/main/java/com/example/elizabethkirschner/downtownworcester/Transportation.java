@@ -6,6 +6,7 @@ import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 
 public class Transportation extends AppCompatActivity {
@@ -69,5 +70,9 @@ public class Transportation extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void goToTransportationSearch (View view){
+        Intent intent = new Intent (this, TransportationSearch.class);
+        startActivity(intent);
+    }
 
 }

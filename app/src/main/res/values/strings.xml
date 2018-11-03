@@ -10,5 +10,7 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_transportation">Transportation</string>
+    <string name="title_activity_transportation_search">TransportationSearch</string>
+    <string name="title_activity_main">MainActivity</string>
 
 </resources>
