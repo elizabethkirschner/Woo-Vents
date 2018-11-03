@@ -22,6 +22,8 @@ public class Events extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_events:
+
+                    //mTextMessage.setText("Events");
                     goToEvents();
                     //TextMessage.setText(R.string.title_events);
                     return true;
@@ -74,6 +76,9 @@ public class Events extends AppCompatActivity {
         startActivity(intent);
     }
 
-
+    public void goToLogin(View view){
+        Intent intent = new Intent (this, LoginActivity.class);
+        startActivity(intent);
+    }
 
 }
