@@ -16,9 +16,10 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Upcoming Events"
+        android:text="@string/upcoming_events"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <ListView android:id="@id/list"
         android:layout_width="match_parent"
@@ -38,7 +39,29 @@
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/navigation" />
 
-<<<<<<< HEAD
+android:layout_height="wrap_content"< android:layout_width="wrap_content"="wrap_content"
+    android:layout_height="wrap_content" />
+
+        android:layout_height="wrap_content"< android:layout_width="wrap_content"="wrap_content"
+    android:layout_height="wrap_content" />
+
+        android:layout_height="wrap_content"< android:layout_width="wrap_content"="wrap_content"
+    android:layout_height="wrap_content" />
+
+        android:layout_height="wrap_content"< android:layout_width="wrap_content"="wrap_content"
+    android:layout_height="wrap_content" />
+
+        android:layout_height="wrap_content"< android:layout_width="wrap_content"="wrap_content"
+    android:layout_height="wrap_content" />
+
+        android:layout_height="wrap_content"< android:layout_width="wrap_content"="wrap_content"
+    android:layout_height="wrap_content" />
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+    < android:HEAD
     <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
         <!--android:orientation="horizontal"-->
         <!--android:layout_width="fill_parent"-->
@@ -69,7 +92,9 @@
         android:text="LOGIN"
         android:onClick="goToLogin"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+    layout_width="wrap_content"
+    layout_height="wrap_content" />
 
 </android.support.constraint.ConstraintLayout>
 >>>>>>> bb1f5c3dd8d88d840aee209f2d3085983f2c45c8
