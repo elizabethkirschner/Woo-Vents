@@ -19,8 +19,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Search"
-            android:label="Discover"></activity>
+            android:name=".Discover"
+            android:label="Discover" />
+        <activity
+            android:name=".News"
+            android:label="@string/title_activity_news" />
+        <activity
+            android:name=".Transportation"
+            android:label="@string/title_activity_transportation"></activity>
     </application>
 
 </manifest>
